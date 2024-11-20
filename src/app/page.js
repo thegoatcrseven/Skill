@@ -5,20 +5,9 @@ export default function Home() {
     <div
       className="relative min-h-screen bg-cover bg-center text-white"
       style={{
-        backgroundImage: 'url("/background.jpg")', // Mets une image dans public/background.jpg
+        backgroundImage: 'url("/back.png")', 
       }}
     >
-      {/* Overlay sombre */}
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-
-      {/* Logo dans le coin supérieur droit */}
-      <div className="absolute top-4 right-4">
-        <img
-          src="/logoSkill.png" // Assurez-vous que l'image est dans /public
-          alt="SkillTracker Logo"
-          className="h-16 w-auto" // Taille ajustable
-        />
-      </div>
 
       {/* Contenu principal */}
       <div className="absolute bottom-8 right-8 flex flex-col space-y-4">
